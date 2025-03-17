@@ -51,8 +51,7 @@ public class BaseTest {
 			driver = new ChromeDriver(options);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12));
 			driver.manage().window().maximize();
-			System.out.println("This is demo purpose");
-
+			
 		}
 	}
 
