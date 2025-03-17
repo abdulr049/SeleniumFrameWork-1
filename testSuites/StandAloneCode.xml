@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="classes" thread-count="2">
+
+<listeners>
+        <listener class-name="baseTest.ListenersTest" />
+</listeners>
+    
+    
+
+    <test name="Stand Alone Code">
+        <classes>
+        
+            
+            <class name="ascentBusiness.StandAloneCode"/>
+                       
+        </classes>
+    </test>
+</suite>

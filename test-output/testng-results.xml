@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-12T16:30:05 AST" name="Suite" finished-at="2025-03-12T16:30:48 AST" duration-ms="43174">
+    <groups>
+    </groups>
+    <test started-at="2025-03-12T16:30:05 AST" name="Submit Order Test" finished-at="2025-03-12T16:30:48 AST" duration-ms="43174">
+      <class name="ascentBusiness.SubmitOrderTest">
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:ascentBusiness.SubmitOrderTest@50468873]" started-at="2025-03-12T16:30:05 AST" name="submitOrderTest" data-provider="getLoginData1" finished-at="2025-03-12T16:30:32 AST" duration-ms="26933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName=ADIDAS ORIGINAL, UserName=anshika@gmail.com, Password=Iamking@000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method signature="submitOrderTest(java.util.HashMap)[pri:0, instance:ascentBusiness.SubmitOrderTest@50468873]" started-at="2025-03-12T16:30:32 AST" name="submitOrderTest" data-provider="getLoginData1" finished-at="2025-03-12T16:30:48 AST" duration-ms="15799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName=ZARA COAT 3, UserName=shetty@gmail.com, Password=Iamking@000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ascentBusiness.SubmitOrderTest@50468873]" started-at="2025-03-12T16:30:48 AST" name="tearDown" finished-at="2025-03-12T16:30:48 AST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ascentBusiness.SubmitOrderTest -->
+      <class name="ascentBusiness.StandAloneCode">
+        <test-method signature="standAloneCode()[pri:0, instance:ascentBusiness.StandAloneCode@16c63f5]" started-at="2025-03-12T16:30:05 AST" name="standAloneCode" finished-at="2025-03-12T16:30:43 AST" duration-ms="37406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneCode -->
+      </class> <!-- ascentBusiness.StandAloneCode -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
