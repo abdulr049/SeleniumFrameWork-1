@@ -26,7 +26,9 @@ public class BaseTest {
 	static ExtentReports report;
 
 	public static void initialization() throws IOException {
-		prop = new Properties();
+		
+		// Read a properties from property file
+		prop = new Properties(); 
 
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
 				+ "\\src\\main\\java\\ascentBusinessResources\\GlobalResources.properties");
