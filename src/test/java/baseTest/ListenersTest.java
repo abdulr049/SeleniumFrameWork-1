@@ -58,7 +58,8 @@ public class ListenersTest extends BaseTest implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		
+		System.out.println("Test Skipped Name : "+result);
 
 	}
 
