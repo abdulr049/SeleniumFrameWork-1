@@ -40,7 +40,6 @@ public class BaseTest {
 		String browserName= System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
 		
 		//String browser = prop.getProperty("browser");
-
 		
 		if (browserName.contains("chrome")) 
 		{
@@ -61,6 +60,8 @@ public class BaseTest {
 		initialization();
 		String url = prop.getProperty("url");
 		driver.get(url);
+		
+		// return driver to use in test file
 		return driver;
 	}
 	
